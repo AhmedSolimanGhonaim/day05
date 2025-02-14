@@ -1,0 +1,46 @@
+.home-page {
+    background: linear-gradient(135deg, #ffe8f5, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: #7b1fa2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    background: linear-gradient(135deg, #ff80ab, #ff4081);
+    border: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(233, 30, 99, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(233, 30, 99, 0.3);
+  }
+  
+  .hero-content {
+    background: rgba(255, 250, 240, 0.8);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  

@@ -1,0 +1,59 @@
+.custom-navbar {
+  background: linear-gradient(135deg, #ff80ab, #ff4081);
+  box-shadow: 0 4px 10px rgba(233, 30, 99, 0.2);
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ffffff, #ffe0f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-subtitle {
+  font-family: 'Lobster', cursive;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.nav-link {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffe0f0;
+  transform: scale(1.1);
+}
+
+.active-link {
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #ff80ab, #ff4081);
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(233, 30, 99, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #ff4081, #ff80ab);
+  transform: scale(1.1);
+}
+
