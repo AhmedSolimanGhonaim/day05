@@ -31,7 +31,7 @@
   }
   
   .home-button {
-    background: linear-gradient(135deg, #ff80ab, #ff4081);
+    background: linear-gradient(135deg, black,rgb(97, 24, 255));
     color: white;
     font-family: 'Lobster', cursive; 
     font-size: 1rem;

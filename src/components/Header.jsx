@@ -12,8 +12,8 @@ export default function Header() {
     <Navbar expand="lg" className="custom-navbar" variant="dark">
       <Container>
         <Navbar.Brand as={NavLink} to="/" className="navbar-brand">
-          <span className="gradient-text">Shop</span>
-          <span className="brand-subtitle">Haven</span>
+       
+          <span className="gradient-text">E-Commerce</span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
